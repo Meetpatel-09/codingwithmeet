@@ -1,0 +1,10 @@
+.max-width-1320 {
+     max-width: 1320px;
+}
+.nav-text {
+     display: flex;
+     align-items: center;
+}
+main {
+     min-height: 75vh;
+}
