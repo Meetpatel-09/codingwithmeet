@@ -7,4 +7,13 @@
 }
 main {
      min-height: 75vh;
+     margin-top: 15px;
+}
+.container-cus {
+     display: flex;
+}
+.desc {
+}
+.slider-cus {
+     border-radius: 15px;
 }
