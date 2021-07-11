@@ -13,9 +13,6 @@ main {
      min-height: 70vh;
      margin-top: 25px;
 }
-.container-cus {
-     display: flex;
-}
 .desc {
      display: flex;
      justify-content: center;
