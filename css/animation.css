@@ -1,0 +1,17 @@
+.tx-f {
+     display: flex;
+     flex-direction: row;
+}
+.text-small {
+     padding: 0px 0 15px 0;
+}
+@media screen and (max-width: 1200px) {
+     .tx-f {
+          flex-direction: column;
+     }
+}
+@media screen and (max-width: 767px) {
+     .m-t-25 {
+          margin-top: 25px;
+     }
+}

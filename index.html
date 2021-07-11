@@ -13,6 +13,9 @@
      <title>Welcome to Coding With Meet</title>
 
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/colors.css">
+     <link rel="stylesheet" href="css/animation.css">
+     <link rel="stylesheet" href="css/textstyles.css">
 
 </head>
 
@@ -42,6 +45,9 @@
                                    <a class="nav-link" href="#">Playlist</a>
                               </li>
                               <li class="nav-item">
+                                   <a class="nav-link" href="#">Blogs</a>
+                              </li>
+                              <li class="nav-item">
                                    <a class="nav-link" href="#">About</a>
                               </li>
                          </ul>
@@ -54,7 +60,7 @@
           <div class="container container-c">
                <div class="row">
 
-                    <div class="col-md">
+                    <div class="col-md-5">
                          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                               <div class="carousel-indicators">
                                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"
@@ -102,23 +108,16 @@
                          </div>
                     </div>
 
-                    <div class="col-md">
-                         <p>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus a dicta, labore,
-                              consequatur recusandae nulla, ipsum sapiente soluta enim cum alias vero molestiae! Modi
-                              non
-                              nobis optio doloremque minima ipsam vitae, perspiciatis repudiandae.
-                         </p>
+                    <div class="col-md-7 desc m-t-25">
+                         <small class="text-small"> &emsp;Welcome to <span>Coding with Meet
+                                   website!</span></small>
+                         <h2 class="tx-f">
+                              <span class="mr-2 tx-mx-w">Here you will find&nbsp;</span>
+                              <span id="app" class="tx-c-b tx-mx-w"></span>
+                         </h2>
+                         <p><span class="p-t">“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”</span> – Antoine de Saint-Exupery </p>
                     </div>
                </div>
-          </div>
-          <div class="container-cus">
-               <section class="desc">
-
-               </section>
-               <section class="slider">
-
-               </section>
           </div>
      </main>
 
@@ -129,19 +128,29 @@
                <section class="mb-4">
 
                     <!-- YouTube -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="https://www.youtube.com/channel/UCmPYtr7qG7NdRWoqECT2UbA" role="button" target="_blank"><i class="fab fa-youtube"></i></a>
-                    
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                         href="https://www.youtube.com/channel/UCmPYtr7qG7NdRWoqECT2UbA" role="button"
+                         target="_blank"><i class="fab fa-youtube"></i></a>
+
                     <!-- Github -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="https://github.com/Meetpatel-09" role="button" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+                         href="https://github.com/Meetpatel-09" role="button" target="_blank"><i
+                              class="fab fa-github"></i></a>
 
                     <!-- Instagram -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="https://instagram.com/codingwithmeet/" role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;"
+                         href="https://instagram.com/codingwithmeet/" role="button" target="_blank"><i
+                              class="fab fa-instagram"></i></a>
 
                     <!-- Facebook -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/codingwithmeet/" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+                         href="https://www.facebook.com/codingwithmeet/" role="button" target="_blank"><i
+                              class="fab fa-facebook-f"></i></a>
 
                     <!-- Google -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="mailto:meetpatel09m@gmail.com" role="button" target="_blank"><i class="fab fa-google"></i></a>
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
+                         href="mailto:meetpatel09m@gmail.com" role="button" target="_blank"><i
+                              class="fab fa-google"></i></a>
 
                     <!-- Twitter -->
                     <!-- <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button" target="_blank"><i class="fab fa-twitter"></i></a> -->
@@ -174,6 +183,27 @@
 
      <!-- fontawesome -->
      <script src="https://kit.fontawesome.com/4f8ef8c28d.js" crossorigin="anonymous"></script>
+
+     <script src="js/text-style.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+     <script src="js/typewriter.js"></script>
+     <script>
+          var app = document.getElementById('app');
+
+          var typewriter = new Typewriter(app, {
+               loop: true
+          });
+
+          typewriter.typeString('Short tutorial videos!')
+               .pauseFor(2500)
+               .deleteAll()
+               .typeString('Playlist of videos!')
+               .pauseFor(2500)
+               .deleteAll()
+               .typeString('Blogs!')
+               .start();
+     </script>
 
 </body>
 

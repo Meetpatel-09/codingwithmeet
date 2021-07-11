@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+     font-family: 'Ubuntu', sans-serif;
+}
 .max-width-1320 {
      max-width: 1320px;
 }
@@ -6,13 +10,16 @@
      align-items: center;
 }
 main {
-     min-height: 75vh;
-     margin-top: 15px;
+     min-height: 70vh;
+     margin-top: 25px;
 }
 .container-cus {
      display: flex;
 }
 .desc {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
 }
 .slider-cus {
      border-radius: 15px;
