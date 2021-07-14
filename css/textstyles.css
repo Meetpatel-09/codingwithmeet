@@ -1,3 +1,7 @@
 .p-t {
      font-style: italic;
 }
+.link-none {
+     text-decoration: none;
+     color: #000;
+}

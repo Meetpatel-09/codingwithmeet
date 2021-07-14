@@ -10,7 +10,7 @@ body {
      align-items: center;
 }
 main {
-     min-height: 70vh;
+     min-height: 75vh;
 }
 .desc {
      display: flex;
