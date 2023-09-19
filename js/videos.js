@@ -96,14 +96,17 @@ videos = [
           "title": "Create a new ASP.Net Web-Application in Visual Studio 2019. Frist project in Visual Studio 2019."
      },
      {
+          "video_id": 5,
           "src": "https://www.youtube.com/embed/YTbrKPmCc8s",
           "title": "How to edit the web.config file in ASP.Net Web-Application in Visual Studio 2019."
      },
      {
+          "video_id": 4,
           "src": "https://www.youtube.com/embed/nemHOmugEbw",
           "title": "How to create a Database in ASP.NET web-application in Visual Studio 2019."
      },
      {
+          "video_id": 3,
           "src": "https://www.youtube.com/embed/8fLYKYkHEX0",
           "title": "Connect Visual Studio 2019 ASP.NET website to MS-SQL Server Database with editing web.config file."
      },
@@ -118,7 +121,6 @@ videos = [
           "title": "How to add a new user in MS-SQL (Microsoft SQL) Server Management Studio."
      }
 ];
-
 
 
 videoContainer = document.getElementById('video-cotainer');
